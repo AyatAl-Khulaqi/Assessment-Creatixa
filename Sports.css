@@ -1,0 +1,172 @@
+html{
+    
+    background-repeat: no-repeat;
+    background-image: url(4822591.jpg);
+    background-size:auto;
+}
+
+#Container{
+    
+    position: relative;
+    text-align: center;
+    
+}
+
+@font-face {
+ 
+    font-family: Cosmic Blaster;
+    src: url("Cosmic%20Blaster.ttf");
+}
+
+#Title{
+    
+    position: relative;
+    top: 5px;
+    font-size: 45px;
+    color: #003B73;
+    font-family: Cosmic Blaster;
+    
+}
+
+.content{
+    
+    display: block;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    position: relative;
+    top:  5px;
+    color: #444;
+    font-family:helvetica;
+
+}
+
+
+#options{
+    
+    
+    position: relative;
+    display: inline-block;
+    top: 5px;
+    font-family:helvetica;  
+    width: 500px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+#question{
+    
+    font-size: 20px;
+    color: #444;
+    width: 450px;
+    position: relative;
+    display: inline-block;
+}
+
+#option1{
+    
+    
+    color: #fff;
+    font-size: 18px;
+    background-color: #057DCD;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 250px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+}
+
+#option1:hover{
+    
+    background-color: #60A3D9;
+    cursor: pointer;
+    color: #21242c;
+}
+
+#option2{
+    
+    color: #fff;
+    font-size: 18px;
+    background-color: #057DCD;
+    border: none;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+#option2:hover{
+    
+    background-color: #60A3D9;
+    cursor: pointer;
+    color: #21242c;
+}
+
+#option3{
+    
+    color: #fff;
+    font-size: 18px;
+    background-color: #057DCD;
+    border: none;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+#option3:hover{
+    
+    background-color: #60A3D9;
+    cursor: pointer;
+    color: #21242c;
+}
+
+#option4{
+    
+    color: #fff;
+    font-size: 18px;
+    background-color: #057DCD;
+    border: none;
+    margin-bottom: 15px;
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    
+}
+
+#option4:hover{
+    
+    background-color: #60A3D9;
+    cursor: pointer;
+    color: #21242c;
+}
+
+
+#imgHeart{
+    
+  position: relative;
+  display:inline-block;
+  left: 5px;
+  width: 40px;
+  height: 30px;
+  bottom: -40px;
+  top: 20px;
+  background-image: url(heartGery.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+   
+}
+
+#imgHeart:hover{
+    
+  cursor: pointer;
+  background-image: url(heartBlue.png);
+  background-color: transparent;
+
+}
+
